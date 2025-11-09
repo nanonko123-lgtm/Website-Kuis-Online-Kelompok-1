@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pilih Jenis Kuis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="card">
+      <h1 class="title">Pilih Jenis Kuis</h1>
+      <p class="muted">Halo, <strong id="userGreeting"></strong></p>
+
+      <div class="grid">
+        <button class="quiz-type btn" data-type="umum">🧠 Kuis Umum</button>
+        <button class="quiz-type btn" data-type="teknologi">💻 Kuis Teknologi</button>
+        <button class="quiz-type btn" data-type="sains">🔬 Kuis Sains</button>
+        <button class="quiz-type btn" data-type="bahasa">📚 Kuis Bahasa</button>
+      </div>
+
+      <div style="margin-top:18px;">
+        <button id="btnResults" class="btn">Lihat Hasil & Peserta</button>
+        <button id="btnLogout" class="btn secondary">Keluar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

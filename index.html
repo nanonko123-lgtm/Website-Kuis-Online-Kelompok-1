@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kuis Online - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="card auth-card">
+      <h1 class="title light">Kuis Online</h1>
+
+      <div id="formLogin">
+        <input id="loginName" placeholder="Nama Pengguna" autocomplete="off" />
+        <input id="loginPass" type="password" placeholder="Kata Sandi" />
+        <button id="btnLogin" class="btn primary">Masuk</button>
+        <p class="muted">Belum punya akun? <a href="#" id="showRegister">Daftar</a></p>
+      </div>
+
+      <div id="formRegister" style="display:none;">
+        <input id="regName" placeholder="Buat Nama Pengguna" autocomplete="off" />
+        <input id="regPass" type="password" placeholder="Buat Kata Sandi" />
+        <button id="btnRegister" class="btn primary">Daftar</button>
+        <p class="muted">Sudah punya akun? <a href="#" id="showLogin">Masuk</a></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

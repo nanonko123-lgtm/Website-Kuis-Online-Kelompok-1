@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kerjakan Kuis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="card quiz-card">
+      <div class="top-row">
+        <div>
+          <h2 id="quizTitle">Kuis</h2>
+          <p class="muted">Peserta: <span id="currentUserName"></span></p>
+        </div>
+        <div class="meta">
+          <p>Soal <span id="indexLabel">1</span>/<span id="totalLabel">10</span></p>
+        </div>
+      </div>
+
+      <div id="questionBox" class="question-box"></div>
+
+      <div class="controls">
+        <button id="prevBtn" class="btn secondary" style="visibility:hidden;">Kembali</button>
+        <button id="nextBtn" class="btn primary">Berikutnya</button>
+      </div>
+
+      <div id="finishArea" style="display:none;" class="result-area"></div>
+
+      <div style="margin-top:14px;">
+        <button id="btnBackToChoose" class="btn secondary" style="display:none;">⬅️ Kembali ke Pilihan Kuis</button>
+        <button id="btnLogout2" class="btn secondary">Keluar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
